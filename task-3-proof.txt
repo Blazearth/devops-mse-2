@@ -1,0 +1,9 @@
+blaze@ideapad-blaze:~$ cd vs-code/KIET_DevOps_DebugChallenge/
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ cd nodejs-api/
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge/nodejs-api$ node index.js
+Server running on port 8080
+
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge/nodejs-api$ curl http://localhost:8080/health
+{"status":"OK"}
+
+

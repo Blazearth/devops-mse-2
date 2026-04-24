@@ -1,0 +1,467 @@
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ whoami
+blaze
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ w
+ 11:43:14 up  1:47,  1 user,  load average: 0.88, 0.66, 0.72
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+blaze    tty2     -                09:55    1:47m  0.05s  0.04s /usr/libexec/gn
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ last
+blaze    tty2         tty2             Fri Apr 24 09:55   still logged in
+blaze    seat0        login screen     Fri Apr 24 09:55   still logged in
+reboot   system boot  6.8.0-110-generi Fri Apr 24 09:55   still running
+blaze    tty2         tty2             Fri Apr 24 05:15 - down   (00:23)
+blaze    seat0        login screen     Fri Apr 24 05:15 - down   (00:23)
+reboot   system boot  6.8.0-110-generi Fri Apr 24 05:15 - 05:39  (00:23)
+blaze    tty2         tty2             Fri Apr 24 05:01 - crash  (00:13)
+blaze    seat0        login screen     Fri Apr 24 05:01 - crash  (00:13)
+reboot   system boot  6.8.0-110-generi Fri Apr 24 05:01 - 05:39  (00:37)
+blaze    tty2         tty2             Wed Apr 22 14:32 - crash (1+14:28)
+blaze    seat0        login screen     Wed Apr 22 14:32 - crash (1+14:28)
+reboot   system boot  6.8.0-110-generi Wed Apr 22 14:32 - 05:39 (1+15:06)
+blaze    tty2         tty2             Tue Apr 21 09:32 - down   (19:34)
+blaze    seat0        login screen     Tue Apr 21 09:32 - down   (19:34)
+reboot   system boot  6.8.0-110-generi Tue Apr 21 09:32 - 05:07  (19:34)
+blaze    tty2         tty2             Mon Apr 20 21:58 - down   (05:11)
+blaze    seat0        login screen     Mon Apr 20 21:58 - down   (05:11)
+reboot   system boot  6.8.0-110-generi Mon Apr 20 21:56 - 03:10  (05:13)
+blaze    tty2         tty2             Mon Apr 20 21:25 - crash  (00:30)
+blaze    seat0        login screen     Mon Apr 20 21:25 - crash  (00:30)
+reboot   system boot  6.8.0-110-generi Mon Apr 20 21:24 - 03:10  (05:45)
+blaze    tty2         tty2             Mon Apr 20 10:04 - down   (11:20)
+blaze    seat0        login screen     Mon Apr 20 10:04 - down   (11:20)
+reboot   system boot  6.8.0-107-generi Mon Apr 20 10:03 - 21:24  (11:21)
+blaze    tty2         tty2             Fri Apr 17 20:34 - down  (2+07:20)
+blaze    seat0        login screen     Fri Apr 17 20:34 - down  (2+07:20)
+reboot   system boot  6.8.0-107-generi Fri Apr 17 20:33 - 03:54 (2+07:20)
+blaze    tty2         tty2             Wed Apr 15 09:18 - crash (2+11:14)
+blaze    seat0        login screen     Wed Apr 15 09:18 - crash (2+11:14)
+reboot   system boot  6.8.0-107-generi Wed Apr 15 09:18 - 03:54 (4+18:35)
+blaze    tty2         tty2             Tue Apr 14 14:19 - down   (13:15)
+blaze    seat0        login screen     Tue Apr 14 14:19 - down   (13:15)
+reboot   system boot  6.8.0-107-generi Tue Apr 14 14:00 - 03:34  (13:34)
+blaze    tty2         tty2             Mon Apr 13 09:15 - down   (21:15)
+blaze    seat0        login screen     Mon Apr 13 09:15 - down   (21:15)
+reboot   system boot  6.8.0-107-generi Mon Apr 13 09:14 - 06:31  (21:16)
+blaze    tty2         tty2             Sun Apr 12 02:12 - down  (1+00:14)
+blaze    seat0        login screen     Sun Apr 12 02:12 - down  (1+00:14)
+reboot   system boot  6.8.0-107-generi Sun Apr 12 02:12 - 02:27 (1+00:14)
+blaze    tty2         tty2             Sun Apr 12 02:06 - down   (00:06)
+blaze    seat0        login screen     Sun Apr 12 02:06 - down   (00:06)
+reboot   system boot  6.8.0-107-generi Sun Apr 12 02:05 - 02:12  (00:06)
+blaze    tty2         tty2             Sat Apr 11 14:14 - down   (11:51)
+blaze    seat0        login screen     Sat Apr 11 14:14 - down   (11:51)
+reboot   system boot  6.8.0-107-generi Sat Apr 11 14:14 - 02:05  (11:51)
+blaze    tty2         tty2             Fri Apr 10 09:16 - crash (1+04:58)
+blaze    seat0        login screen     Fri Apr 10 09:16 - crash (1+04:58)
+reboot   system boot  6.8.0-107-generi Fri Apr 10 09:15 - 02:05 (1+16:50)
+blaze    tty2         tty2             Thu Apr  9 20:05 - down   (06:01)
+blaze    seat0        login screen     Thu Apr  9 20:05 - down   (06:01)
+reboot   system boot  6.8.0-107-generi Thu Apr  9 20:05 - 02:06  (06:01)
+blaze    tty2         tty2             Thu Apr  9 15:17 - down   (01:33)
+blaze    seat0        login screen     Thu Apr  9 15:17 - down   (01:33)
+reboot   system boot  6.8.0-107-generi Thu Apr  9 15:16 - 16:50  (01:33)
+blaze    tty2         tty2             Wed Apr  8 22:43 - down   (03:43)
+blaze    seat0        login screen     Wed Apr  8 22:43 - down   (03:43)
+reboot   system boot  6.8.0-107-generi Wed Apr  8 22:41 - 02:26  (03:45)
+blaze    tty2         tty2             Wed Apr  8 11:04 - down   (11:34)
+blaze    seat0        login screen     Wed Apr  8 11:04 - down   (11:34)
+reboot   system boot  6.8.0-107-generi Wed Apr  8 11:04 - 22:38  (11:34)
+blaze    tty2         tty2             Tue Apr  7 19:36 - down   (07:16)
+blaze    seat0        login screen     Tue Apr  7 19:36 - down   (07:16)
+reboot   system boot  6.8.0-107-generi Tue Apr  7 19:18 - 02:53  (07:34)
+blaze    tty2         tty2             Tue Apr  7 09:21 - down   (09:57)
+blaze    seat0        login screen     Tue Apr  7 09:21 - down   (09:57)
+reboot   system boot  6.8.0-106-generi Tue Apr  7 09:20 - 19:18  (09:57)
+blaze    tty2         tty2             Mon Apr  6 22:11 - down   (03:52)
+blaze    seat0        login screen     Mon Apr  6 22:11 - down   (03:52)
+reboot   system boot  6.8.0-106-generi Mon Apr  6 22:10 - 02:04  (03:53)
+blaze    tty2         tty2             Mon Apr  6 09:19 - down   (05:48)
+blaze    seat0        login screen     Mon Apr  6 09:19 - down   (05:48)
+reboot   system boot  6.8.0-106-generi Mon Apr  6 09:19 - 15:08  (05:49)
+blaze    tty2         tty2             Sun Apr  5 22:40 - down   (04:43)
+blaze    seat0        login screen     Sun Apr  5 22:40 - down   (04:43)
+reboot   system boot  6.8.0-106-generi Sun Apr  5 22:40 - 03:24  (04:44)
+blaze    tty2         tty2             Sun Apr  5 16:37 - crash  (06:02)
+blaze    seat0        login screen     Sun Apr  5 16:37 - crash  (06:02)
+reboot   system boot  6.8.0-106-generi Sun Apr  5 16:37 - 03:24  (10:47)
+blaze    tty2         tty2             Sun Apr  5 03:38 - down   (01:34)
+blaze    seat0        login screen     Sun Apr  5 03:38 - down   (01:34)
+reboot   system boot  6.8.0-106-generi Sun Apr  5 03:37 - 05:13  (01:35)
+blaze    tty2         tty2             Tue Mar 31 19:58 - down  (3+05:29)
+blaze    seat0        login screen     Tue Mar 31 19:58 - down  (3+05:29)
+blaze    tty2         tty2             Mon Mar 30 20:01 - 19:57  (23:56)
+blaze    seat0        login screen     Mon Mar 30 20:01 - 19:58  (23:56)
+reboot   system boot  6.8.0-106-generi Mon Mar 30 20:01 - 01:28 (4+05:26)
+blaze    tty2         tty2             Sun Mar 29 15:11 - crash (1+04:50)
+blaze    seat0        login screen     Sun Mar 29 15:11 - crash (1+04:50)
+reboot   system boot  6.8.0-106-generi Sun Mar 29 15:10 - 01:28 (5+10:17)
+blaze    tty2         tty2             Sat Mar 28 17:56 - down   (09:48)
+blaze    seat0        login screen     Sat Mar 28 17:56 - down   (09:48)
+reboot   system boot  6.8.0-106-generi Sat Mar 28 17:55 - 03:45  (09:50)
+blaze    tty2         tty2             Fri Mar 27 23:20 - down   (04:03)
+blaze    seat0        login screen     Fri Mar 27 23:20 - down   (04:03)
+reboot   system boot  6.8.0-106-generi Fri Mar 27 23:19 - 03:23  (04:04)
+blaze    tty2         tty2             Fri Mar 27 09:34 - crash  (13:45)
+blaze    seat0        login screen     Fri Mar 27 09:34 - crash  (13:45)
+reboot   system boot  6.8.0-106-generi Fri Mar 27 09:33 - 03:23  (17:50)
+blaze    tty2         tty2             Wed Mar 25 19:52 - down  (1+07:07)
+blaze    seat0        login screen     Wed Mar 25 19:52 - down  (1+07:07)
+reboot   system boot  6.8.0-106-generi Wed Mar 25 19:52 - 02:59 (1+07:07)
+blaze    tty2         tty2             Wed Mar 25 09:22 - crash  (10:29)
+blaze    seat0        login screen     Wed Mar 25 09:22 - crash  (10:29)
+reboot   system boot  6.8.0-106-generi Wed Mar 25 09:22 - 02:59 (1+17:37)
+blaze    tty2         tty2             Wed Mar 25 02:11 - down   (00:52)
+blaze    seat0        login screen     Wed Mar 25 02:11 - down   (00:52)
+blaze    tty2         tty2             Tue Mar 24 11:57 - 02:10  (14:13)
+blaze    seat0        login screen     Tue Mar 24 11:57 - 02:11  (14:14)
+reboot   system boot  6.8.0-106-generi Tue Mar 24 11:56 - 03:03  (15:07)
+blaze    tty2         tty2             Mon Mar 23 16:03 - crash  (19:52)
+blaze    seat0        login screen     Mon Mar 23 16:03 - crash  (19:52)
+reboot   system boot  6.8.0-106-generi Mon Mar 23 16:03 - 03:03 (1+11:00)
+blaze    tty2         tty2             Sun Mar 22 12:46 - crash (1+03:16)
+blaze    seat0        login screen     Sun Mar 22 12:46 - crash (1+03:16)
+reboot   system boot  6.8.0-106-generi Sun Mar 22 12:46 - 03:03 (2+14:17)
+blaze    tty2         tty2             Sat Mar 21 00:01 - crash (1+12:44)
+blaze    seat0        login screen     Sat Mar 21 00:01 - crash (1+12:44)
+reboot   system boot  6.8.0-106-generi Sat Mar 21 00:01 - 03:03 (4+03:02)
+blaze    tty2         tty2             Fri Mar 20 11:53 - crash  (12:08)
+blaze    seat0        login screen     Fri Mar 20 11:53 - crash  (12:08)
+reboot   system boot  6.8.0-106-generi Fri Mar 20 11:52 - 03:03 (4+15:10)
+blaze    tty2         tty2             Thu Mar 19 23:45 - down   (02:34)
+blaze    seat0        login screen     Thu Mar 19 23:45 - down   (02:34)
+reboot   system boot  6.8.0-106-generi Thu Mar 19 23:45 - 02:20  (02:34)
+blaze    tty2         tty2             Thu Mar 19 15:25 - crash  (08:19)
+blaze    seat0        login screen     Thu Mar 19 15:25 - crash  (08:19)
+reboot   system boot  6.8.0-106-generi Thu Mar 19 15:23 - 02:20  (10:56)
+blaze    tty2         tty2             Wed Mar 18 09:20 - down   (16:57)
+blaze    seat0        login screen     Wed Mar 18 09:20 - down   (16:57)
+reboot   system boot  6.8.0-101-generi Wed Mar 18 09:20 - 02:17  (16:57)
+blaze    tty2         tty2             Tue Mar 17 08:38 - down   (16:42)
+blaze    seat0        login screen     Tue Mar 17 08:38 - down   (16:42)
+reboot   system boot  6.8.0-101-generi Tue Mar 17 08:38 - 01:20  (16:42)
+blaze    tty2         tty2             Mon Mar 16 09:24 - down   (17:02)
+blaze    seat0        login screen     Mon Mar 16 09:24 - down   (17:02)
+reboot   system boot  6.8.0-101-generi Mon Mar 16 09:24 - 02:27  (17:03)
+blaze    tty2         tty2             Mon Mar 16 01:04 - down   (00:11)
+blaze    seat0        login screen     Mon Mar 16 01:04 - down   (00:11)
+reboot   system boot  6.8.0-101-generi Mon Mar 16 01:04 - 01:16  (00:11)
+blaze    tty2         tty2             Sun Mar 15 17:51 - crash  (07:12)
+blaze    seat0        login screen     Sun Mar 15 17:51 - crash  (07:12)
+reboot   system boot  6.8.0-101-generi Sun Mar 15 17:51 - 01:16  (07:24)
+blaze    tty2         tty2             Wed Mar 11 00:53 - down  (4+01:40)
+blaze    seat0        login screen     Wed Mar 11 00:53 - down  (4+01:40)
+reboot   system boot  6.8.0-101-generi Wed Mar 11 00:53 - 02:34 (4+01:40)
+blaze    tty2         tty2             Tue Mar 10 23:24 - crash  (01:29)
+blaze    seat0        login screen     Tue Mar 10 23:24 - crash  (01:29)
+reboot   system boot  6.8.0-101-generi Tue Mar 10 23:22 - 02:34 (4+03:11)
+blaze    tty2         tty2             Tue Mar 10 19:18 - crash  (04:04)
+blaze    seat0        login screen     Tue Mar 10 19:18 - crash  (04:04)
+reboot   system boot  6.8.0-101-generi Tue Mar 10 19:18 - 02:34 (4+07:16)
+blaze    tty2         tty2             Mon Mar  9 20:27 - down   (16:58)
+blaze    seat0        login screen     Mon Mar  9 20:27 - down   (16:58)
+reboot   system boot  6.8.0-101-generi Mon Mar  9 20:27 - 13:26  (16:58)
+blaze    tty2         tty2             Sun Mar  8 21:23 - crash  (23:04)
+blaze    seat0        login screen     Sun Mar  8 21:23 - crash  (23:04)
+reboot   system boot  6.8.0-101-generi Sun Mar  8 21:22 - 13:26 (1+16:03)
+blaze    tty2         tty2             Sat Mar  7 22:21 - crash  (23:01)
+blaze    seat0        login screen     Sat Mar  7 22:21 - crash  (23:01)
+reboot   system boot  6.8.0-101-generi Sat Mar  7 22:21 - 13:26 (2+15:04)
+blaze    tty2         tty2             Fri Mar  6 12:08 - down   (15:26)
+blaze    seat0        login screen     Fri Mar  6 12:08 - down   (15:26)
+reboot   system boot  6.8.0-101-generi Fri Mar  6 12:07 - 03:34  (15:26)
+blaze    tty2         tty2             Thu Mar  5 14:33 - down   (12:49)
+blaze    seat0        login screen     Thu Mar  5 14:33 - down   (12:49)
+reboot   system boot  6.8.0-101-generi Thu Mar  5 14:33 - 03:23  (12:49)
+blaze    :1           :1               Thu Mar  5 13:24 - down   (01:09)
+blaze    seat0        login screen     Thu Mar  5 13:24 - down   (01:09)
+reboot   system boot  6.8.0-101-generi Thu Mar  5 13:22 - 14:33  (01:10)
+blaze    tty2         tty2             Thu Mar  5 13:04 - down   (00:18)
+blaze    seat0        login screen     Thu Mar  5 13:04 - down   (00:18)
+reboot   system boot  6.8.0-101-generi Thu Mar  5 13:02 - 13:22  (00:19)
+blaze    tty2         tty2             Wed Mar  4 23:38 - down   (03:23)
+blaze    seat0        login screen     Wed Mar  4 23:38 - down   (03:23)
+reboot   system boot  6.8.0-101-generi Wed Mar  4 23:38 - 03:02  (03:24)
+blaze    tty2         tty2             Tue Mar  3 19:47 - down   (06:29)
+blaze    seat0        login screen     Tue Mar  3 19:47 - down   (06:29)
+reboot   system boot  6.8.0-101-generi Tue Mar  3 19:46 - 02:16  (06:29)
+blaze    tty2         tty2             Mon Mar  2 17:47 - down   (08:21)
+blaze    seat0        login screen     Mon Mar  2 17:47 - down   (08:21)
+reboot   system boot  6.8.0-101-generi Mon Mar  2 17:47 - 02:09  (08:21)
+blaze    tty2         tty2             Sun Mar  1 20:43 - down   (04:22)
+blaze    seat0        login screen     Sun Mar  1 20:43 - down   (04:22)
+reboot   system boot  6.8.0-101-generi Sun Mar  1 20:43 - 01:06  (04:23)
+blaze    tty2         tty2             Sat Feb 28 14:20 - down   (10:49)
+blaze    seat0        login screen     Sat Feb 28 14:20 - down   (10:49)
+reboot   system boot  6.8.0-101-generi Sat Feb 28 14:20 - 01:10  (10:49)
+blaze    tty2         tty2             Sat Feb 28 13:49 - down   (00:30)
+blaze    seat0        login screen     Sat Feb 28 13:49 - down   (00:30)
+reboot   system boot  6.8.0-100-generi Sat Feb 28 13:49 - 14:19  (00:30)
+blaze    tty2         tty2             Sat Feb 28 01:12 - 01:36  (00:24)
+blaze    seat0        login screen     Sat Feb 28 01:12 - down   (00:24)
+reboot   system boot  6.8.0-100-generi Sat Feb 28 01:11 - 01:37  (00:25)
+blaze    tty2         tty2             Fri Feb 27 09:19 - down   (07:53)
+blaze    seat0        login screen     Fri Feb 27 09:19 - down   (07:53)
+reboot   system boot  6.8.0-100-generi Fri Feb 27 09:18 - 17:12  (07:53)
+blaze    tty2         tty2             Thu Feb 26 09:13 - down   (15:38)
+blaze    seat0        login screen     Thu Feb 26 09:13 - down   (15:38)
+reboot   system boot  6.8.0-100-generi Thu Feb 26 09:13 - 00:52  (15:39)
+blaze    tty2         tty2             Wed Feb 25 09:48 - down   (16:42)
+blaze    seat0        login screen     Wed Feb 25 09:48 - down   (16:42)
+reboot   system boot  6.8.0-100-generi Wed Feb 25 09:48 - 02:31  (16:42)
+blaze    tty2         tty2             Tue Feb 24 09:16 - down   (16:20)
+blaze    seat0        login screen     Tue Feb 24 09:16 - down   (16:20)
+reboot   system boot  6.8.0-100-generi Tue Feb 24 09:16 - 01:37  (16:20)
+blaze    tty2         tty2             Mon Feb 23 09:16 - down   (16:21)
+blaze    seat0        login screen     Mon Feb 23 09:16 - down   (16:21)
+reboot   system boot  6.8.0-100-generi Mon Feb 23 09:16 - 01:37  (16:21)
+blaze    :1           :1               Mon Feb 23 09:15 - down   (00:00)
+blaze    seat0        login screen     Mon Feb 23 09:15 - down   (00:00)
+reboot   system boot  6.8.0-100-generi Mon Feb 23 09:14 - 09:16  (00:01)
+blaze    :1           :1               Mon Feb 23 02:19 - down   (00:50)
+blaze    seat0        login screen     Mon Feb 23 02:19 - down   (00:50)
+reboot   system boot  6.8.0-100-generi Mon Feb 23 02:18 - 03:09  (00:51)
+blaze    tty2         tty2             Sun Feb 22 12:40 - down   (13:38)
+blaze    seat0        login screen     Sun Feb 22 12:40 - down   (13:38)
+reboot   system boot  6.8.0-100-generi Sun Feb 22 12:40 - 02:18  (13:38)
+blaze    tty2         tty2             Sat Feb 21 14:34 - down   (12:15)
+blaze    seat0        login screen     Sat Feb 21 14:34 - down   (12:15)
+reboot   system boot  6.8.0-100-generi Sat Feb 21 14:33 - 02:49  (12:15)
+blaze    tty2         tty2             Sat Feb 21 12:38 - crash  (01:55)
+blaze    seat0        login screen     Sat Feb 21 12:38 - crash  (01:55)
+reboot   system boot  6.8.0-100-generi Sat Feb 21 12:37 - 02:49  (14:12)
+blaze    tty2         tty2             Sat Feb 21 01:29 - down   (01:06)
+blaze    seat0        login screen     Sat Feb 21 01:29 - down   (01:06)
+reboot   system boot  6.8.0-100-generi Sat Feb 21 01:29 - 02:36  (01:06)
+blaze    tty2         tty2             Fri Feb 20 22:20 - crash  (03:08)
+blaze    seat0        login screen     Fri Feb 20 22:20 - crash  (03:08)
+reboot   system boot  6.8.0-100-generi Fri Feb 20 22:19 - 02:36  (04:17)
+blaze    tty2         tty2             Fri Feb 20 14:47 - crash  (07:31)
+blaze    seat0        login screen     Fri Feb 20 14:47 - crash  (07:31)
+reboot   system boot  6.8.0-100-generi Fri Feb 20 14:46 - 02:36  (11:49)
+blaze    tty2         tty2             Fri Feb 20 11:25 - crash  (03:21)
+blaze    seat0        login screen     Fri Feb 20 11:25 - crash  (03:21)
+reboot   system boot  6.8.0-100-generi Fri Feb 20 11:25 - 02:36  (15:10)
+blaze    tty2         tty2             Thu Feb 19 09:19 - down   (16:10)
+blaze    seat0        login screen     Thu Feb 19 09:19 - down   (16:10)
+reboot   system boot  6.8.0-100-generi Thu Feb 19 09:18 - 01:30  (16:11)
+blaze    tty2         tty2             Wed Feb 18 20:04 - down   (05:44)
+blaze    seat0        login screen     Wed Feb 18 20:04 - down   (05:44)
+reboot   system boot  6.8.0-100-generi Wed Feb 18 20:04 - 01:49  (05:45)
+blaze    tty2         tty2             Wed Feb 18 01:38 - down   (00:00)
+blaze    seat0        login screen     Wed Feb 18 01:38 - down   (00:00)
+reboot   system boot  6.8.0-100-generi Wed Feb 18 01:38 - 01:39  (00:00)
+blaze    tty2         tty2             Tue Feb 17 09:14 - crash  (16:24)
+blaze    seat0        login screen     Tue Feb 17 09:14 - crash  (16:24)
+reboot   system boot  6.8.0-100-generi Tue Feb 17 09:14 - 01:39  (16:25)
+blaze    tty2         tty2             Mon Feb 16 23:12 - down   (02:00)
+blaze    seat0        login screen     Mon Feb 16 23:12 - down   (02:00)
+reboot   system boot  6.8.0-100-generi Mon Feb 16 23:11 - 01:12  (02:00)
+blaze    tty2         tty2             Mon Feb 16 21:44 - down   (01:26)
+blaze    seat0        login screen     Mon Feb 16 21:44 - down   (01:26)
+blaze    :1           :1               Mon Feb 16 21:35 - 21:44  (00:08)
+blaze    seat0        login screen     Mon Feb 16 21:35 - 21:44  (00:09)
+reboot   system boot  6.8.0-100-generi Mon Feb 16 21:35 - 23:11  (01:36)
+blaze    :1           :1               Mon Feb 16 20:52 - down   (00:32)
+blaze    seat0        login screen     Mon Feb 16 20:52 - down   (00:32)
+reboot   system boot  6.8.0-100-generi Mon Feb 16 20:52 - 21:25  (00:32)
+blaze    tty2         tty2             Mon Feb 16 20:42 - down   (00:09)
+blaze    seat0        login screen     Mon Feb 16 20:42 - down   (00:09)
+reboot   system boot  6.8.0-100-generi Mon Feb 16 20:42 - 20:52  (00:10)
+blaze    tty2         tty2             Mon Feb 16 19:57 - down   (00:44)
+reboot   system boot  6.8.0-94-generic Mon Feb 16 19:57 - 20:41  (00:44)
+blaze    tty2         tty2             Mon Feb 16 09:15 - down   (10:41)
+reboot   system boot  6.8.0-94-generic Mon Feb 16 09:14 - 19:56  (10:42)
+blaze    tty2         tty2             Sun Feb 15 14:50 - down   (10:55)
+reboot   system boot  6.8.0-94-generic Sun Feb 15 14:50 - 01:46  (10:56)
+blaze    tty2         tty2             Sat Feb 14 21:57 - down   (05:35)
+reboot   system boot  6.8.0-94-generic Sat Feb 14 21:56 - 03:32  (05:35)
+blaze    tty2         tty2             Fri Feb 13 09:22 - down   (17:00)
+reboot   system boot  6.8.0-94-generic Fri Feb 13 09:22 - 02:22  (17:00)
+blaze    tty2         tty2             Thu Feb 12 09:15 - down   (17:08)
+reboot   system boot  6.8.0-94-generic Thu Feb 12 09:15 - 02:24  (17:09)
+blaze    tty2         tty2             Wed Feb 11 09:14 - down   (16:29)
+reboot   system boot  6.8.0-94-generic Wed Feb 11 09:14 - 01:43  (16:29)
+blaze    tty2         tty2             Tue Feb 10 09:15 - down   (16:38)
+reboot   system boot  6.8.0-94-generic Tue Feb 10 09:14 - 01:53  (16:38)
+blaze    tty2         tty2             Mon Feb  9 09:19 - down   (16:06)
+reboot   system boot  6.8.0-90-generic Mon Feb  9 09:18 - 01:25  (16:07)
+blaze    tty2         tty2             Sun Feb  8 14:07 - down   (10:34)
+reboot   system boot  6.8.0-90-generic Sun Feb  8 14:06 - 00:42  (10:35)
+blaze    tty2         tty2             Sat Feb  7 13:43 - down   (13:48)
+reboot   system boot  6.8.0-90-generic Sat Feb  7 13:43 - 03:31  (13:48)
+blaze    tty2         tty2             Fri Feb  6 20:53 - down   (04:28)
+reboot   system boot  6.8.0-90-generic Fri Feb  6 20:52 - 01:22  (04:29)
+blaze    tty2         tty2             Fri Feb  6 13:43 - down   (03:03)
+reboot   system boot  6.8.0-90-generic Fri Feb  6 13:43 - 16:46  (03:03)
+blaze    tty2         tty2             Fri Feb  6 11:09 - down   (01:20)
+reboot   system boot  6.8.0-90-generic Fri Feb  6 11:09 - 12:29  (01:20)
+blaze    tty2         tty2             Thu Feb  5 20:12 - down   (05:02)
+reboot   system boot  6.8.0-90-generic Thu Feb  5 20:12 - 01:15  (05:02)
+blaze    tty2         tty2             Thu Feb  5 15:24 - down   (01:21)
+reboot   system boot  6.8.0-90-generic Thu Feb  5 15:23 - 16:45  (01:21)
+blaze    tty2         tty2             Wed Feb  4 14:01 - down   (11:06)
+reboot   system boot  6.8.0-90-generic Wed Feb  4 14:01 - 01:08  (11:06)
+blaze    tty2         tty2             Wed Feb  4 00:48 - down   (00:00)
+reboot   system boot  6.8.0-90-generic Wed Feb  4 00:48 - 00:48  (00:00)
+blaze    :1           :1               Wed Feb  4 00:35 - crash  (00:12)
+reboot   system boot  6.8.0-90-generic Wed Feb  4 00:34 - 00:48  (00:13)
+blaze    tty2         tty2             Tue Feb  3 19:41 - crash  (04:53)
+reboot   system boot  6.8.0-90-generic Tue Feb  3 19:41 - 00:48  (05:07)
+blaze    tty2         tty2             Tue Feb  3 14:30 - down   (00:39)
+reboot   system boot  6.8.0-90-generic Tue Feb  3 14:30 - 15:09  (00:39)
+blaze    tty2         tty2             Tue Feb  3 10:01 - down   (02:28)
+reboot   system boot  6.8.0-90-generic Tue Feb  3 10:00 - 12:30  (02:29)
+blaze    tty2         tty2             Mon Feb  2 20:25 - down   (04:35)
+reboot   system boot  6.8.0-90-generic Mon Feb  2 20:24 - 01:00  (04:35)
+blaze    tty2         tty2             Mon Feb  2 09:13 - down   (05:54)
+reboot   system boot  6.8.0-90-generic Mon Feb  2 09:13 - 15:07  (05:54)
+blaze    tty2         tty2             Sat Jan 31 13:02 - down   (12:47)
+reboot   system boot  6.8.0-90-generic Sat Jan 31 13:02 - 01:50  (12:47)
+blaze    tty2         tty2             Fri Jan 30 15:19 - down   (01:25)
+reboot   system boot  6.8.0-90-generic Fri Jan 30 15:19 - 16:45  (01:25)
+blaze    tty2         tty2             Fri Jan 30 13:39 - down   (01:02)
+reboot   system boot  6.8.0-90-generic Fri Jan 30 13:39 - 14:42  (01:02)
+blaze    tty2         tty2             Fri Jan 30 11:12 - down   (01:09)
+reboot   system boot  6.8.0-90-generic Fri Jan 30 11:12 - 12:21  (01:09)
+blaze    tty2         tty2             Thu Jan 29 21:23 - down   (03:18)
+reboot   system boot  6.8.0-90-generic Thu Jan 29 21:22 - 00:41  (03:19)
+blaze    tty2         tty2             Thu Jan 29 09:12 - down   (01:51)
+reboot   system boot  6.8.0-90-generic Thu Jan 29 09:12 - 11:04  (01:51)
+blaze    tty2         tty2             Wed Jan 28 22:42 - down   (02:25)
+reboot   system boot  6.8.0-90-generic Wed Jan 28 22:42 - 01:07  (02:25)
+blaze    tty2         tty2             Wed Jan 28 19:00 - crash  (03:41)
+reboot   system boot  6.8.0-90-generic Wed Jan 28 19:00 - 01:07  (06:07)
+blaze    tty2         tty2             Wed Jan 28 12:09 - down   (00:11)
+reboot   system boot  6.8.0-90-generic Wed Jan 28 12:09 - 12:21  (00:12)
+blaze    tty2         tty2             Mon Jan 26 16:55 - down   (08:40)
+reboot   system boot  6.8.0-90-generic Mon Jan 26 16:55 - 01:36  (08:40)
+blaze    tty2         tty2             Sun Jan 25 23:32 - down   (00:11)
+reboot   system boot  6.8.0-90-generic Sun Jan 25 23:32 - 23:44  (00:12)
+blaze    tty2         tty2             Sun Jan 25 23:21 - down   (00:10)
+reboot   system boot  6.8.0-90-generic Sun Jan 25 23:21 - 23:31  (00:10)
+blaze    tty2         tty2             Sun Jan 25 23:18 - down   (00:02)
+reboot   system boot  6.8.0-90-generic Sun Jan 25 23:17 - 23:20  (00:03)
+blaze    tty2         tty2             Sun Jan 25 23:08 - down   (00:09)
+reboot   system boot  6.8.0-90-generic Sun Jan 25 23:07 - 23:17  (00:09)
+blaze    tty2         tty2             Sun Jan 25 14:06 - down   (01:12)
+reboot   system boot  6.8.0-90-generic Sun Jan 25 14:05 - 15:19  (01:13)
+blaze    tty2         tty2             Sun Jan 25 01:37 - down   (00:28)
+blaze    :0           :0               Sun Jan 25 01:26 - 01:36  (00:10)
+blaze    tty2         tty2             Sun Jan 25 00:04 - 01:26  (01:21)
+reboot   system boot  6.8.0-90-generic Sun Jan 25 00:04 - 02:06  (02:02)
+
+wtmp begins Sun Jan 25 00:04:04 2026
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ uname -a
+hostname
+uptime
+Linux ideapad-blaze 6.8.0-110-generic #110-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 19 15:09:20 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+ideapad-blaze
+ 11:43:39 up  1:48,  1 user,  load average: 0.71, 0.64, 0.72
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ sudo groupadd developers
+sudo groupadd qa
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ grep -E "developers|qa" /etc/group
+developers:x:1001:
+qa:x:1002:
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,blaze
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:blaze
+floppy:x:25:
+tape:x:26:
+sudo:x:27:blaze
+audio:x:29:pulse
+dip:x:30:blaze
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:blaze
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+crontab:x:104:
+messagebus:x:105:
+systemd-timesync:x:106:
+input:x:107:
+sgx:x:108:
+kvm:x:109:
+render:x:110:
+syslog:x:111:
+_ssh:x:112:
+tss:x:113:
+bluetooth:x:114:
+ssl-cert:x:115:
+uuidd:x:116:
+systemd-oom:x:117:
+tcpdump:x:118:
+netdev:x:120:
+avahi:x:121:
+lpadmin:x:122:blaze
+rtkit:x:123:
+whoopsie:x:124:
+sssd:x:125:
+fwupd-refresh:x:126:
+nm-openvpn:x:127:
+scanner:x:128:saned
+saned:x:129:
+colord:x:130:
+geoclue:x:131:
+pulse:x:132:
+pulse-access:x:133:
+gdm:x:134:
+lxd:x:135:blaze
+blaze:x:1000:
+sambashare:x:136:blaze
+_flatpak:x:138:
+rdma:x:139:
+tracing:x:140:
+pipewire:x:141:
+polkitd:x:999:
+gamemode:x:998:
+gnome-initial-setup:x:997:
+gnome-remote-desktop:x:996:
+nvidia-persistenced:x:119:
+docker:x:995:blaze
+developers:x:1001:
+qa:x:1002:
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ sudo useradd -m -G developers aman
+sudo useradd -m -G developers ritu
+sudo useradd -m -G qa karan
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ id aman
+id ritu
+id karan
+uid=1001(aman) gid=1003(aman) groups=1003(aman),1001(developers)
+uid=1002(ritu) gid=1004(ritu) groups=1004(ritu),1001(developers)
+uid=1003(karan) gid=1005(karan) groups=1005(karan),1002(qa)
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ sudo pkill -u ritu
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ sudo userdel -r ritu
+userdel: ritu mail spool (/var/mail/ritu) not found
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ id ritu
+id: ‘ritu’: no such user
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ 
+

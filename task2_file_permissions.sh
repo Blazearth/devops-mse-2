@@ -28,7 +28,7 @@ sudo chown www-data:www-data index.html
 ls -l index.html
 
 # Task 6: Change the file permissions to 755
-chmod 755 index.html
+sudo chmod 755 index.html
 
 # Task 7: Display final permissions and ownership to verify
 ls -l index.html

@@ -1,0 +1,24 @@
+blaze@ideapad-blaze:~/vs-code/KIET_DevOps_DebugChallenge$ cd ~
+blaze@ideapad-blaze:~$ touch index.html
+blaze@ideapad-blaze:~$ cat > index.html << 'EOF'
+<!DOCTYPE html>
+<html>
+  <head><title>Web Server</title></head>
+  <body>
+    <h1>Welcome to the Web Server</h1>
+  </body>
+</html>
+EOF
+blaze@ideapad-blaze:~$ ls -l index.html
+-rw-rw-r-- 1 blaze blaze 130 Apr 24 11:47 index.html
+blaze@ideapad-blaze:~$ chmod 777 index.html
+ls -l index.html
+-rwxrwxrwx 1 blaze blaze 130 Apr 24 11:47 index.html
+blaze@ideapad-blaze:~$ sudo chown www-data:www-data index.html
+ls -l index.html
+-rwxrwxrwx 1 www-data www-data 130 Apr 24 11:47 index.html
+blaze@ideapad-blaze:~$ chmod 755 index.html
+chmod: changing permissions of 'index.html': Operation not permitted
+blaze@ideapad-blaze:~$ ls -l index.html
+-rwxrwxrwx 1 www-data www-data 130 Apr 24 11:47 index.html
+blaze@ideapad-blaze:~$ 
